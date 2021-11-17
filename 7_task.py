@@ -1,16 +1,11 @@
-import numpy as np
-import turtle as tr
-spiral_step = 2
-number_of_spiral_turns = 3
-angle = 5
-tr.shape('turtle')
-tr.speed(10000)
-i = 0
-k = 20
-#for i in np.arange(0, 2*np.pi, np.pi/64):
-while True:
-    tr.goto(np.sin(i)*k, np.cos(i)*k)
-    i +=0.01
-    k *= 1.001
-   # tr.left(np.cos(x))
-  #  tr.forward(np.cos(i)*10)
+import turtle
+turtle.shape('turtle')
+k =1
+fi_rad=0.4
+fi_degr=fi_rad*(180/3.14)
+for i in range (0,1000):
+    ro= k *fi_rad
+    turtle.forward(ro)
+    turtle.left(fi_degr)
+    fi_rad+=0.1
+    ro+=ro
