@@ -1,15 +1,17 @@
-import turtle
-turtle.shape('turtle')
-x=40
+import turtle as tr
+tr.shape('turtle')
+x = 10
+y = 10
+tr.color("black", "red")
 for j in range(10):
     for i in range(4):
-        turtle.forward(x)
-        turtle.left(90)
-    turtle.right(90)
-    turtle.penup()
-    turtle.forward(10)
-    turtle.left(90)
-    turtle.forward(10)
-    turtle.right(180)
-    turtle.pendown()
-    x+=20
+        tr.forward(x)
+        tr.left(90)
+    tr.penup()
+    tr.right(90)
+    tr.forward(y)
+    tr.right(90)
+    tr.forward(y)
+    tr.right(180)
+    tr.pendown()
+    x += 2 * y
