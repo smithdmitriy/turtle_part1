@@ -1,5 +1,5 @@
 import turtle
-for i in range(4):
+for i in range(72):
     turtle.shape('turtle')
-    turtle.forward(300)
-    turtle.left(90)
+    turtle.forward(5)
+    turtle.left(5)
