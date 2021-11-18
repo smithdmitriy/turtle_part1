@@ -2,7 +2,7 @@ import turtle as tr
 import numpy as np
 
 def circle(r: float):
-    accuracy = 18
+    accuracy = 36
     tr.shape('turtle')
     tr.speed(10)
     an = 2 * r * np.sin(np.pi / accuracy)
@@ -12,7 +12,6 @@ def circle(r: float):
         tr.forward(an)
         tr.left(360 / accuracy)
     tr.right(180 - angle_n / 2)
-
     return
 
 
