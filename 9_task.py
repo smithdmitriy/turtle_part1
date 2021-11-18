@@ -18,7 +18,7 @@ def polygon(n: int, r: float):
     tr.penup()
     tr.backward(r)
 
-    return #
+    return
 
 
 radius_circumscribed_circle = 10
