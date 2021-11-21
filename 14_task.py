@@ -1,5 +1,4 @@
 import turtle as tr
-import numpy as np
 
 def star(r:float,n: int):
     tr.speed(5)
